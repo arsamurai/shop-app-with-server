@@ -1,0 +1,100 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "imageUrl": "https://thumb.tildacdn.com/tild3638-3134-4062-b035-646663653733/-/resize/660x/-/format/webp/IMG_8600.png",
+      "name": "Аврора",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "description": "Мюли, натуральная кожа, подошва кожвалон",
+      "sewing": "Возможен отшив",
+      "price": 1500,
+      "category": 4,
+      "discount": 15,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://thumb.tildacdn.com/tild3230-3938-4662-b739-363439663436/-/resize/660x/-/format/webp/IMG_5856.png",
+      "name": "Цыпленок барбекю",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "description": "Мюли, натуральная кожа, подошва кожвалон",
+      "sewing": "Возможен отшив",
+      "price": 295,
+      "category": 1,
+      "discount": null,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://thumb.tildacdn.com/tild3638-3134-4062-b035-646663653733/-/resize/660x/-/format/webp/IMG_8600.png",
+      "name": "Чизбургер-пицца",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "description": "Мюли, натуральная кожа, подошва кожвалон",
+      "sewing": "Возможен отшив",
+      "price": 415,
+      "category": 2,
+      "discount": null,
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://thumb.tildacdn.com/tild3032-3339-4430-b134-316265323432/-/resize/660x/-/format/webp/IMG_3980.png",
+      "name": "Крэйзи пепперони",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "description": "Мюли, натуральная кожа, подошва кожвалон",
+      "sewing": "Возможен отшив",
+      "price": 580,
+      "category": 4,
+      "discount": 30,
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://thumb.tildacdn.com/tild3436-6335-4336-b231-616562363936/-/resize/660x/-/format/webp/IMG_2229.png",
+      "name": "Пепперони",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "description": "Мюли, натуральная кожа, подошва кожвалон",
+      "sewing": "Возможен отшив",
+      "price": 675,
+      "category": 1,
+      "discount": null,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://thumb.tildacdn.com/tild6265-3434-4135-b633-643065323261/-/resize/660x/-/format/webp/IMG_1946.png",
+      "name": "Маргарита",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "description": "Мюли, натуральная кожа, подошва кожвалон",
+      "sewing": "Возможен отшив",
+      "price": 450,
+      "category": 4,
+      "discount": 10,
+      "rating": 10
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://thumb.tildacdn.com/tild3863-3165-4362-a632-313138633036/-/resize/660x/-/format/webp/1-44_2.png",
+      "name": "Четыре сезона",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "description": "Мюли, натуральная кожа, подошва кожвалон",
+      "sewing": "Возможен отшив",
+      "price": 395,
+      "category": 3,
+      "discount": 70,
+      "rating": 10
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://thumb.tildacdn.com/tild3733-3235-4237-b732-306363643666/-/resize/660x/-/format/webp/image_8.png",
+      "name": "Овощи и грибы 🌱",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "description": "Мюли, натуральная кожа, подошва кожвалон",
+      "sewing": "Возможен отшив",
+      "price": 285,
+      "category": 4,
+      "discount": 15,
+      "rating": 7
+    }
+  ]
+}

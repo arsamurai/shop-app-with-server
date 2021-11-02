@@ -1,0 +1,25 @@
+.timer {
+    margin: 0 auto;
+    color: $red;
+    margin-bottom: 20px;
+    &__container {
+        border: 1px solid $red;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    section {
+        margin: 0 15px;
+        padding: 7px;
+    }
+
+    &__num {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    &__text {
+        font-size: 13px;
+        margin-top: -2px;
+    }
+}

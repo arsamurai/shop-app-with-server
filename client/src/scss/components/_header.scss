@@ -1,0 +1,41 @@
+@import "../variables";
+
+.header {
+  box-shadow: 0px 13px 40px #d1cfcf;
+  padding: 40px 55px;
+  background-color: $gray-line;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__cart {
+    position: relative;
+  }
+
+  .header__cart-link.fixed {
+    position: fixed;
+    top: 100px;
+    right: 55px;
+    z-index: 1000;
+  }
+
+  &__logo {
+    display: flex;
+
+    img {
+      margin-right: 15px;
+    }
+
+    h1 {
+      color: #181818;
+      font-size: 24px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      color: #7b7b7b;
+    }
+  }
+}

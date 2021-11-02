@@ -1,0 +1,54 @@
+.benefit {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 69vh;
+  overflow: hidden;
+  margin-bottom: 35px;
+  &__wrapper {
+    & > .swiper-container > .swiper-scrollbar {
+      bottom: 45px;
+      height: 10px;
+      background-color: rgba(7, 1, 12, 0.3);
+    }
+    & > .swiper-container > .swiper-scrollbar > .swiper-scrollbar-drag {
+      background-color: rgba(7, 1, 12, 0.7);
+    }
+  }
+  &__inner {
+    background: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding: 45px 41px;
+    display: flex;
+    align-items: center;
+  }
+  &-main {
+    width: 450px;
+  }
+  &-title {
+    font-size: 112px;
+    line-height: 78px;
+    letter-spacing: -5.4px;
+    text-transform: capitalize;
+    font-weight: 800;
+    .secondWord {
+      color: #f3f3f3;
+      margin-left: 197px;
+    }
+  }
+  &-text {
+    font-size: 34px;
+    color: #f3f3f3;
+    margin: 25px 0 45px;
+    text-shadow: -1px 0 $black, 0 1px $black, 1px 0 $black, 0 -1px $black;
+  }
+  &-btn {
+    font-size: 29px;
+    height: auto;
+  }
+}

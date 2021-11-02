@@ -1,0 +1,50 @@
+@import "../variables";
+
+.footer {
+  border-top: 1px solid #d1cfcf;
+  padding: 40px 55px;
+  background-color: $gray-line;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__bottom {
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    &__link {
+      margin: 0 15px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    &__link:last-child {
+      margin-right: 0;
+      text-align: center;
+    }
+    &__link-img {
+      margin-right: 10px;
+    }
+  }
+
+  &__logo {
+    h1 {
+      color: #181818;
+      font-size: 24px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+      display: block;
+    }
+
+    p {
+      color: #7b7b7b;
+    }
+  }
+}

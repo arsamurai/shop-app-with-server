@@ -1,0 +1,548 @@
+@import "variables";
+
+@media (max-width: 1497px) {
+  .content__items {
+    justify-content: space-between;
+  }
+  .pizza-block {
+    margin-left: 35px;
+    margin-right: 35px;
+    &:not(:nth-of-type(4n)) {
+      margin-right: 35px;
+    }
+  }
+  .wrapper {
+    padding: 0 15px;
+    &.container--cart {
+      padding: 0 35px;
+    }
+  }
+}
+
+@media (max-width: 1320px) {
+  .button--cart {
+    border: 2px solid #fff;
+  }
+}
+
+@media (max-width: 1270px) {
+  .categories {
+    ul {
+      margin-bottom: 25px;
+      justify-content: space-between;
+    }
+  }
+  .sort__popup {
+    right: auto;
+    left: 0;
+  }
+  .content {
+    &__top {
+      flex-direction: column;
+      align-items: normal;
+    }
+    &__items {
+      justify-content: space-around;
+    }
+  }
+}
+
+@media (max-width: 975px) {
+  .categories {
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .form-left-decoration,
+  .form-right-decoration,
+  .form-left-decoration:before,
+  .form-left-decoration:after,
+  .form-right-decoration:before,
+  .form-right-decoration:after,
+  .circle {
+    display: none;
+  }
+  .form {
+    width: 90%;
+    &-inner {
+      padding: 35px;
+    }
+    &-inner input,
+    &-inner textarea {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 958px) {
+  .header {
+    &__logo h1 {
+      font-size: 20px;
+    }
+  }
+
+  .footer {
+    &__logo h1 {
+      font-size: 20px;
+    }
+    .social__link {
+      margin: 0 11px;
+    }
+  }
+
+  .button--cart {
+    padding: 9px 17px;
+  }
+
+  .pizza {
+    flex-direction: column-reverse;
+    align-items: center;
+    &__image {
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .header,
+  .footer {
+    padding: 25px 40px;
+  }
+  .header {
+    .header__cart-link.fixed {
+      position: fixed;
+      top: 50px;
+      right: 25px;
+      z-index: 1000;
+    }
+  }
+  .footer {
+    &__top {
+      margin-bottom: 25px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    &__logo {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  }
+  .benefit {
+    &-title {
+      font-size: 100px;
+      line-height: 68px;
+    }
+    &-text {
+      font-size: 31px;
+      margin: 23px 0 33px;
+    }
+    .secondWord {
+      margin-left: 174px;
+    }
+  }
+  .modal {
+    &__content {
+      width: 55%;
+    }
+    &__content.modalForImg {
+      height: 64%;
+    }
+  }
+  .pizza__info {
+    width: 75%;
+  }
+  .cart--empty img {
+    width: 265px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cart {
+    &__item {
+      flex-direction: column;
+    }
+    &__item-left {
+      width: 100%;
+    }
+    &__item-right {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  .form-inner h3 {
+    text-align: center;
+  }
+  .content__title {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 620px) {
+  .header {
+    &__main-text {
+      width: 163px;
+    }
+    &__logo {
+      align-items: center;
+    }
+  }
+
+  .header,
+  .footer {
+    padding: 20px;
+  }
+  .benefit .secondWord {
+    margin-left: 114px;
+  }
+  .wrapper {
+    width: calc(100vw - 40px);
+    &.container--cart {
+      padding: 0 15px;
+    }
+  }
+  .modal__content {
+    width: 63%;
+  }
+  .pizza {
+    &-block:not(:nth-of-type(4n)) {
+      margin-right: 0;
+    }
+    &-block {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &__image {
+      width: 85%;
+      img {
+        height: 400px;
+      }
+    }
+    &__discount {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+  }
+  .timer {
+    &__num {
+      font-size: 19px;
+    }
+    &__text {
+      font-size: 11px;
+    }
+  }
+  .container--cart {
+    padding: 0 15px;
+  }
+  .cart {
+    .content__title {
+      font-size: 26px;
+    }
+    &__clear span {
+      font-size: 17px;
+    }
+    &__item-price b {
+      font-size: 20px;
+    }
+    &__item-count b {
+      font-size: 20px;
+    }
+    &__bottom-details span {
+      font-size: 18px;
+    }
+  }
+
+  .button--circle {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+  }
+  .form {
+    width: 95%;
+    &-inner {
+    padding: 20px;
+  }
+  &-inner h3 {
+    font-size: 20px;
+  }
+  }
+  .errorMessage {
+    font-size: 14px;
+    bottom: -19px;
+    left: 11px;
+  }
+  .container--cart {
+    margin: 60px auto;
+  }
+  .cart__bottom-buttons .pay-btn {
+    font-size: 15px;
+    width: 192px;
+    padding: 11px;
+  }
+  .cart__bottom-buttons .go-back-btn {
+    width: 193px;
+  }
+  .pizza--container {
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__main-text {
+    display: none;
+  }
+  .footer {
+    .social {
+      flex-direction: column;
+    }
+    .social__link {
+      margin: 15px 0 0;
+    }
+    &__logo {
+      margin-bottom: 10px;
+    }
+  }
+  .button--cart {
+    padding: 6px 13px;
+  }
+  .benefit {
+    &-title {
+      font-size: 85px;
+      line-height: 58px;
+    }
+    .secondWord {
+      margin-left: 68px;
+    }
+    &-text {
+      font-size: 28px;
+    }
+  }
+  .modal__content {
+    width: 75%;
+  }
+  .pizza__info {
+    width: 95%;
+  }
+  .cart {
+    &--empty .button--black {
+      padding: 8px 0 9px;
+      width: 205px;
+      margin: 0 auto;
+      font-weight: 600;
+      font-size: 17px;
+    }
+    &__bottom {
+      margin: 35px 0;
+    }
+    &__bottom-details {
+      flex-direction: column;
+    }
+    &__clear span {
+      display: none;
+    }
+    &__item-count b {
+      margin: 0 5px;
+    }
+    &__item-price b {
+      font-size: 20px;
+    }
+    &__item-count b {
+      font-size: 20px;
+    }
+  }
+
+  .button--circle {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+  }
+  .form-inner {
+    padding: 10px;
+  }
+  .form-inner input,
+  .form-inner textarea {
+    padding: 0px 13px;
+    line-height: 36px;
+    font-size: 18px;
+    border: 1px solid #000;
+  }
+  .form-field__lable {
+    font-size: 18px;
+    top: 8px;
+    left: 14px;
+  }
+  .cart__bottom-buttons {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .cart__bottom-buttons .pay-btn {
+    margin-bottom: 15px;
+  }
+  .pizza__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    &__main-title {
+      display: none;
+    }
+    &__logo img {
+      margin-right: 0;
+    }
+  }
+  .benefit {
+    &-title {
+      font-size: 75px;
+      line-height: 52px;
+    }
+    .secondWord {
+      margin-left: 13px;
+    }
+    &-text {
+      font-size: 21px;
+    }
+    &-btn {
+      font-size: 23px;
+      height: auto;
+    }
+  }
+  .content__title {
+    font-size: 19px;
+    margin: 20px 0;
+  }
+  .categories {
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      li:not(:last-child) {
+        margin-right: 0;
+      }
+    }
+  }
+  .modal__content {
+    width: 87%;
+  }
+  .pizza {
+    &__price {
+      font-size: 19px;
+      line-height: 21px;
+    }
+    &__info {
+      width: 100%;
+    }
+    &__image img {
+      height: 350px;
+    }
+  }
+
+  .cart {
+    &--empty h2 {
+      font-size: 24px;
+    }
+    &--empty p {
+      font-size: 17px;
+    }
+    &--empty img {
+      width: 200px;
+    }
+    & .content__title {
+      font-size: 24px;
+    }
+    &__item-info h3 {
+      font-size: 21px;
+    }
+    &__item-info p {
+      font-size: 17px;
+    }
+  }
+  .form-inner h3 {
+    font-size: 16px;
+  }
+  .errorMessage {
+    font-size: 10px;
+    bottom: -15px;
+  }
+  .wrapper {
+    width: calc(100vw - 10px);
+  }
+  .pizza__discount {
+    font-size: 20px;
+  }
+  .timer section {
+    margin: 0 9px;
+  }
+  .form-inner .personName:focus + .form-field__lable,
+  .form-inner .personName.value-exists + .form-field__lable,
+  .form-inner .personNumber:focus + .form-field__lable,
+  .form-inner .personNumber.value-exists + .form-field__lable,
+  .form-inner .personMessage:focus + .form-field__lable,
+  .form-inner .personMessage.value-exists + .form-field__lable {
+    top: -16px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .pizza--container .go-back-btn {
+    width: 100%;
+  }
+}
+
+@media (max-height: 700px) and (min-width: 850px) {
+  .benefit {
+    &-title {
+      font-size: 100px;
+      line-height: 68px;
+    }
+    &-text {
+      font-size: 31px;
+      margin: 23px 0 33px;
+    }
+    .secondWord {
+      margin-left: 174px;
+    }
+  }
+}
+
+@media (max-height: 578px) and (min-width: 500px) {
+  .benefit {
+    &-main {
+      width: 448px;
+    }
+    &-title {
+      font-size: 73px;
+      line-height: 50px;
+    }
+    .secondWord {
+      margin-left: 68px;
+    }
+    &-text {
+      font-size: 23px;
+      margin: 14px 0 18px;
+    }
+    &-btn {
+      font-size: 21px;
+      height: auto;
+    }
+  }
+}
+
+@media (max-height: 800px) and (min-width: 851px) {
+  .modal__content {
+    width: 475px;
+  }
+  .modal__content.modalForImg {
+    height: 475px;
+  }
+} ;
